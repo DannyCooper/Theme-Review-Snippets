@@ -10,7 +10,7 @@ Once you have fixed the issues, the theme can be re-uploading using a higher ver
 
 **Issues**
 
-Issues go here.
+*Issues go here.*
 
 **Further Information**
 
