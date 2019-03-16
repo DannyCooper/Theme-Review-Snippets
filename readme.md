@@ -18,14 +18,24 @@ For discussion regarding the theme review process, we have an active Slack Chann
 
 ## Issues
 
-1) The Theme URI is optional. But if it's used, it must be about the theme we’re hosting on WordPress.org. Not a theme demo.
+**Theme URI**
 
-2) All themes must be translatable-ready. This means users of any language can use your theme. To enable that you must use [WordPress' core translation functions] for all text. For example, in single.php on lines 5, 18 and 21 the text is not translatable.
+The Theme URI is optional. But if it's used, it must be about the theme we’re hosting on WordPress.org. Not a theme demo.
+
+**Translation-Ready**
+
+All themes must be translatable-ready. This means users of any language can use your theme. To enable that you must use [WordPress' core translation functions] for all text. For example, in single.php on lines 5, 18 and 21 the text is not translatable.
 
 Resource: https://codex.wordpress.org/I18n_for_WordPress_Developers
 
-3) Your theme readme.txt must follow this format - https://make.wordpress.org/themes/2015/04/29/a-revised-readme/
+**readme.txt**
+
+Your theme readme.txt must follow this format - https://make.wordpress.org/themes/2015/04/29/a-revised-readme/
 
 In the future, the WordPress.org directory will pull information about your theme from the readme.txt, so it's important to enforce a standard format. 
 
-There is a readme.txt validator too - https://wordpress.org/plugins/developers/readme-validator/ - Your readme.txt should return no *Warnings:*
+There is a readme.txt validator:
+
+https://wordpress.org/plugins/developers/readme-validator/ 
+
+Your readme.txt should return no **Warnings:**
