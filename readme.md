@@ -1,4 +1,4 @@
-# Welcome
+## Template
 
 Hi @user,
 
@@ -10,9 +10,13 @@ Once you have fixed the issues, the theme can be re-uploading using a higher ver
 
 **Issues**
 
+Issues go here.
+
 **Further Information**
 
 For discussion regarding the theme review process, we have an active Slack Channel https://wordpress.slack.com/messages/themereview/
+
+## Issues
 
 1) The Theme URI is optional. But if it's used, it must be about the theme we’re hosting on WordPress.org. Not a theme demo.
 
