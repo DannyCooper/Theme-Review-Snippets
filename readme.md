@@ -52,16 +52,16 @@ Themes must not use a prefix for third-party resources.
 
 Some themes and plugins rely on the same third-party scripts and styles. By using a standard handle we can ensure they aren't loaded twice or more. 
 
-**Correct**
+**''Correct''**
 
-`wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/js/modernizr.js', array('jquery') );`
+    > wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/js/modernizr.js', array('jquery') );
     
-**Incorrect**
+**''Incorrect''**
 
-`wp_enqueue_script( 'mytheme-modernizr', get_template_directory_uri() . '/js/modernizr.js', array('jquery') );`
+    > wp_enqueue_script( 'mytheme-modernizr', get_template_directory_uri() . '/js/modernizr.js', array('jquery') );
 
 Files are empty or contain only commented out code should be removed as they provide no value to the user.
 
-#### Empty Files and Folders
+#### '''Empty Files and Folders
 
 Files are empty or contain only commented out code should be removed as they provide no value to the user.
