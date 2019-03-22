@@ -35,9 +35,9 @@ Every resource included with your theme that you didn't create should be GPL-com
 5. Fonts
 6. Icons
 
-`> The prefered format for documenting as resource is the following:`
+The prefered format for documenting as resource is the following:
 
-Resource Name - Resource URL - License - License URL
+`> Resource Name - Resource URL - License - License URL`
 
 For example:
 
