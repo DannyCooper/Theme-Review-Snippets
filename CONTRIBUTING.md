@@ -27,4 +27,4 @@ Resource: https://codex.wordpress.org/I18n_for_WordPress_Developers
 
 #### Example:
 
-`<?php esc_attr_e( 'Text to be translated', 'text-domain' );`
+`<?php esc_attr_e( 'Text to be translated', 'text-domain' ); ?>`
