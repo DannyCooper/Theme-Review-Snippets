@@ -48,9 +48,9 @@ Some themes and plugins rely on the same third-party scripts and styles. By usin
 
 **Correct**
 
-    wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/assets/js/modernizr.js', array('jquery') );
+`wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/js/modernizr.js', array('jquery') );`
     
 **Incorrect**
 
-    wp_enqueue_script( 'mytheme-modernizr', get_template_directory_uri() . '/assets/js/modernizr.js', array('jquery') );
+`wp_enqueue_script( 'mytheme-modernizr', get_template_directory_uri() . '/js/modernizr.js', array('jquery') );`
 
