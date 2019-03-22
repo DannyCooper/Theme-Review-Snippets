@@ -1,7 +1,10 @@
 # Table of Contents  
 
-**[Review Template](#review-template)**<br>
-**[Issues](#issues)**<br>
+- [Review Template](#review-template)
+- [Issues](#issues)
+ - [Issues](#licensing)
+ - [Theme URI](#theme-uri)
+ - [Translation Ready](#translation-ready)
 
 ## Review Template
 
