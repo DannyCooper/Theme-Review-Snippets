@@ -1,6 +1,6 @@
 # Contributing
 
-Everyone is welcome to suggest an improvement to this resource.
+Everyone is welcome to suggest an improvement to this resource. The goal is to make each point as clear as possible so reviews can move forward smoothly.
 
 ## New Issues
 
