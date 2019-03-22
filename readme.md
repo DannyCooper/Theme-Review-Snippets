@@ -2,9 +2,13 @@
 
 - [Review Template](#review-template)
 - [Issues](#issues)
- - [Issues](#licensing)
- - [Theme URI](#theme-uri)
- - [Translation Ready](#translation-ready)
+  - [Licensing](#licensing)
+  - [Theme URI](#theme-uri)
+  - [Translation Ready](#translation-ready)
+  - [readme.txt](#readmetxt)
+  - [Third-Party Enqueue Handles](#third-party-enqueue-handles)
+  - [Empty Files and Folders](#empty-files-and-folders)
+  - [Open Graph Meta Tags](#open-graph-meta-tags-facebook-twitter-etc)
 
 ## Review Template
 
