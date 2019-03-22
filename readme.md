@@ -1,4 +1,4 @@
-## Template
+## Review Template
 
 Hi @user,
 
