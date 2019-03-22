@@ -24,6 +24,25 @@ For discussion regarding the theme review process, we have an active Slack Chann
 
 ## Issues
 
+#### '''Licensing
+
+Every resource included with your theme that you didn't create should be GPL-compatible. Also, the license information should be easily accessible within readme.txt. Resources include:
+
+1. Images
+2. Scripts
+3. Libraries
+4. Frameworks
+5. Fonts
+6. Icons
+
+`> The prefered format for documenting as resource is the following:`
+
+Resource Name - Resource URL - License - License URL
+
+For example:
+
+`> FontAwesome - http://fontawesome.io - MIT License - http://fontawesome.io/license`
+
 #### '''Theme URI
 
 The Theme URI is optional. But if it's used, it must be about the theme we’re hosting on WordPress.org. Not a theme demo.
@@ -65,3 +84,7 @@ Files are empty or contain only commented out code should be removed as they pro
 #### '''Empty Files and Folders
 
 Files are empty or contain only commented out code should be removed as they provide no value to the user.
+
+#### '''Open Graph Meta Tags (Facebook, Twitter, etc.)
+
+This is considered plugin-territory and should not be included within a theme. There are a lot of popular plugins that output this data.
