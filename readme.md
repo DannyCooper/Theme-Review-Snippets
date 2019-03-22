@@ -36,7 +36,7 @@ Every resource included with your theme that you didn't create should be GPL-com
 6. Icons
 ```
 
-The prefered format for documenting as resource is the following:
+The preferred format for documenting each resource is the following:
 
 `> Resource Name - Resource URL - License - License URL`
 
