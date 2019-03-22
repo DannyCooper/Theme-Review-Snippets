@@ -1,3 +1,8 @@
+# Table of Contents  
+
+**[Review Template](#review-template)**<br>
+**[Issues](#issues)**<br>
+
 ## Review Template
 
 Hi @user,
