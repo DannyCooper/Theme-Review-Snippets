@@ -16,6 +16,8 @@ Once you have fixed the issues, the theme can be re-uploading using a higher ver
 
 For discussion regarding the theme review process, we have an active Slack Channel https://wordpress.slack.com/messages/themereview/
 
+---
+
 ## Issues
 
 **'''Theme URI**
