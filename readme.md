@@ -27,13 +27,14 @@ For discussion regarding the theme review process, we have an active Slack Chann
 #### '''Licensing
 
 Every resource included with your theme that you didn't create should be GPL-compatible. Also, the license information should be easily accessible within readme.txt. Resources include:
-
+```
 1. Images
 2. Scripts
 3. Libraries
 4. Frameworks
 5. Fonts
 6. Icons
+```
 
 The prefered format for documenting as resource is the following:
 
