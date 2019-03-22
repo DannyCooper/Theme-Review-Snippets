@@ -20,7 +20,7 @@ For discussion regarding the theme review process, we have an active Slack Chann
 
 ## Issues
 
-### '''Theme URI
+#### '''Theme URI
 
 The Theme URI is optional. But if it's used, it must be about the theme we’re hosting on WordPress.org. Not a theme demo.
 
