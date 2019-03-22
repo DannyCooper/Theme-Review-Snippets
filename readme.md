@@ -2,7 +2,11 @@
 
 Hi @user,
 
-I will be reviewing your theme today. There are standards required of themes before they can be accepted into the WordPress.org directory, those can be found here - https://make.wordpress.org/themes/handbook/review/required/
+I will be reviewing your theme today. The theme review process includes manually checking each file, as well as testing your theme using the 'Theme Sniffer' plugin. Using this tool in your development process may help with approval.
+
+https://wordpress.org/plugins/theme-sniffer/
+
+There are standards required of themes before they can be accepted into the WordPress.org directory, those can be found here - https://make.wordpress.org/themes/handbook/review/required/
 
 If your theme does not comply with 3 or more of those requirements, this ticket will be closed and the theme resolved as not-approved.
 
@@ -24,13 +28,13 @@ For discussion regarding the theme review process, we have an active Slack Chann
 
 The Theme URI is optional. But if it's used, it must be about the theme we’re hosting on WordPress.org. Not a theme demo.
 
-**'''Translation-Ready**
+#### '''Translation-Ready
 
 All themes must be translatable-ready. This means users of any language can use your theme. To enable that you must use [WordPress' core translation functions] for all text. For example, in single.php on lines 5, 18 and 21 the text is not translatable.
 
 Resource: https://codex.wordpress.org/I18n_for_WordPress_Developers
 
-**'''readme.txt**
+#### '''readme.txt
 
 Your theme readme.txt must follow this format - https://make.wordpress.org/themes/2015/04/29/a-revised-readme/
 
@@ -42,7 +46,7 @@ https://wordpress.org/plugins/developers/readme-validator/
 
 Your readme.txt should return no **Warnings:**
 
-**'''Third-Party Enqueue Handles**
+#### '''Third-Party Enqueue Handles
 
 Themes must not use a prefix for third-party resources. 
 
@@ -56,3 +60,8 @@ Some themes and plugins rely on the same third-party scripts and styles. By usin
 
 `wp_enqueue_script( 'mytheme-modernizr', get_template_directory_uri() . '/js/modernizr.js', array('jquery') );`
 
+Files are empty or contain only commented out code should be removed as they provide no value to the user.
+
+#### Empty Files and Folders
+
+Files are empty or contain only commented out code should be removed as they provide no value to the user.
