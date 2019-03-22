@@ -8,27 +8,27 @@ If your theme does not comply with 3 or more of those requirements, this ticket 
 
 Once you have fixed the issues, the theme can be re-uploading using a higher version number in style.css. However, it will join the back of the review queue.
 
-**Issues**
+**== Issues**
 
 *Issues go here.*
 
-**Further Information**
+**== Further Information**
 
 For discussion regarding the theme review process, we have an active Slack Channel https://wordpress.slack.com/messages/themereview/
 
 ## Issues
 
-**Theme URI**
+**'''Theme URI**
 
 The Theme URI is optional. But if it's used, it must be about the theme we’re hosting on WordPress.org. Not a theme demo.
 
-**Translation-Ready**
+**'''Translation-Ready**
 
 All themes must be translatable-ready. This means users of any language can use your theme. To enable that you must use [WordPress' core translation functions] for all text. For example, in single.php on lines 5, 18 and 21 the text is not translatable.
 
 Resource: https://codex.wordpress.org/I18n_for_WordPress_Developers
 
-**readme.txt**
+**'''readme.txt**
 
 Your theme readme.txt must follow this format - https://make.wordpress.org/themes/2015/04/29/a-revised-readme/
 
