@@ -39,3 +39,18 @@ There is a readme.txt validator:
 https://wordpress.org/plugins/developers/readme-validator/ 
 
 Your readme.txt should return no **Warnings:**
+
+**'''Third-Party Enqueue Handles**
+
+Themes must not use a prefix for third-party resources. 
+
+Some themes and plugins rely on the same third-party scripts and styles. By using a standard handle we can ensure they aren't loaded twice or more. 
+
+**Correct**
+
+    wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/assets/js/modernizr.js', array('jquery') );
+    
+**Incorrect**
+
+    wp_enqueue_script( 'mytheme-modernizr', get_template_directory_uri() . '/assets/js/modernizr.js', array('jquery') );
+
