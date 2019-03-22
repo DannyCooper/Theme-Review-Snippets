@@ -9,6 +9,7 @@
   - [Third-Party Enqueue Handles](#third-party-enqueue-handles)
   - [Empty Files and Folders](#empty-files-and-folders)
   - [Open Graph Meta Tags](#open-graph-meta-tags-facebook-twitter-etc)
+  - [Theme URI](#theme-uri)
 
 ## Review Template
 
@@ -101,3 +102,10 @@ Files are empty or contain only commented out code should be removed as they pro
 #### '''Open Graph Meta Tags (Facebook, Twitter, etc.)
 
 This is considered plugin-territory and should not be included within a theme. There are a lot of popular plugins that output this data.
+
+
+#### '''Theme URI
+
+The `Theme URI` is not a required field, but if it is used then it must be a page with details about your theme. It cannot be a demo page.
+
+Example - https://www.ilovewp.com/themes/photoframe/
